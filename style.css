@@ -764,16 +764,19 @@ header {
     gap: 4rem;
 }
 
+.services-left {
+    position: static;
+}
+
 @media (min-width: 992px) {
     .services-layout {
         grid-template-columns: 1.2fr 1.8fr;
         align-items: start;
     }
-}
-
-.services-left {
-    position: sticky;
-    top: 7rem;
+    .services-left {
+        position: sticky;
+        top: 7rem;
+    }
 }
 
 .services-left p {
